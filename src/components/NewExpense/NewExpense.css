@@ -7,6 +7,10 @@
   border-radius: 12px;
 }
 
+.new-expense__show-form {
+  text-align: center;
+}
+
 .new-expense button {
   font: inherit;
   cursor: pointer;
