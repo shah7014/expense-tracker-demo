@@ -31,8 +31,7 @@ function App() {
   ]);
 
   const saveExpenseHandler = (newExpense) => {
-    setExpenses((prev) => [...prev, newExpense]);
-    // console.log("in app.js :- ", newExpense);
+    setExpenses((prevExpenses) => [newExpense, ...prevExpenses]);
   };
 
   return (
